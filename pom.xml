@@ -23,7 +23,7 @@
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
         <functionResourceGroup>java-functions-group</functionResourceGroup>
         <junit.version>[4.13.1,)</junit.version>
-        <mockito.version>[3.0.0,)</mockito.version>
+        <mockito.version>[3.7.0,)</mockito.version>
     </properties>
 
     <dependencyManagement>
