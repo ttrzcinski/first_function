@@ -14,10 +14,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <azure.functions.java.library.version>[1.0.0-beta-5,)</azure.functions.java.library.version>
-        <azure.functions.maven.plugin.version>[1.2.0,)</azure.functions.maven.plugin.version>
-        <azure.functions.maven.resources.version>[3.1.0,)</azure.functions.maven.resources.version>
-        <azure.functions.maven.dependencies.version>[3.1.1,)</azure.functions.maven.dependencies.version>
+        <azure.functions.java.library.version>1.0.0-beta-5</azure.functions.java.library.version>
+        <azure.functions.maven.plugin.version>1.0.0-beta-4</azure.functions.maven.plugin.version>
+        <azure.functions.maven.resources.version>3.1.0</azure.functions.maven.resources.version>
+        <azure.functions.maven.dependencies.version>3.1.1</azure.functions.maven.dependencies.version>
         <functionAppName>first-function-20180806120423392</functionAppName>
         <functionAppRegion>westus</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
